@@ -1,9 +1,8 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
+import "package:app7/main.dart";
 
-class Module9 extends StatelessWidget {
-  const Module9({super.key});
+class Module9Class2 extends StatelessWidget {
+  const Module9Class2({super.key});
 
   @override
   Widget build(BuildContext context) {
