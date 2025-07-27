@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:sizer/sizer.dart';
-import 'package:rest_api_ui_design/restApiUIDesign.dart';
+import 'pdf_with_api/pdf_reader.dart';
+import 'restApiUIDesign.dart';
 
 class myApp extends StatelessWidget {
   const myApp({super.key});
@@ -24,7 +25,7 @@ class myApp extends StatelessWidget {
                     backgroundColor: Colors.deepPurpleAccent,
                     foregroundColor: Colors.white))),
         title: 'Ostad Flutter app',
-        home: restApiUIDesign(),
+        home: BookList(),
       );
     });
   }

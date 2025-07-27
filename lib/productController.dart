@@ -1,7 +1,8 @@
 import 'dart:convert';
 
+import 'package:hello_world/utils/urls.dart';
 import 'package:http/http.dart' as http;
-import 'package:rest_api_ui_design/utils/urls.dart';
+
 
 
 class productController{
